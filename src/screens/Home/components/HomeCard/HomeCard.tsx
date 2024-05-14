@@ -35,7 +35,7 @@ export function HomeCard({
       <View style={homeCard.textContainer}>
         <Heading text={title} fontSize={18} />
         <View style={homeCard.footer}>
-          <Text style={homeCard.footerText}>{numOfQuestions} Questions</Text>
+          <Text style={homeCard.footerText}>{numOfQuestions} Savol</Text>
           <Text style={homeCard.footerText}>{duration} min</Text>
         </View>
       </View>

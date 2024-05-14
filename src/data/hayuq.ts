@@ -2,8 +2,8 @@ import { Question, Test } from "./types";
 
 export const HayuqTest: Test = {
   id: "id:test/flag",
-  title: "Ha Yo'q",
-  testName: "hayo'q",
+  title: "Ha-Yo'q",
+  testName: "ha-yo'q",
   numOfQuestions: 10,
   duration: 10,
   image: {
@@ -21,10 +21,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Canada",
     },
     options: [
-      { id: "id:option/0", text: "France", isCorrect: false },
-      { id: "id:option/1", text: "United Kingdom", isCorrect: false },
-      { id: "id:option/2", text: "Canada", isCorrect: true },
-      { id: "id:option/3", text: "Japan", isCorrect: false },
+      { id: "id:option/0", text: "Ha", isCorrect: true },
+      { id: "id:option/1", text: "Yo'q", isCorrect: false },
     ],
     answerDescription:
       "Correct! The flag with a red maple leaf belongs to Canada.",
@@ -39,10 +37,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Vietnam",
     },
     options: [
-      { id: "id:option/4", text: "South Korea", isCorrect: false },
-      { id: "id:option/5", text: "China", isCorrect: false },
-      { id: "id:option/6", text: "Vietnam", isCorrect: true },
-      { id: "id:option/7", text: "Thailand", isCorrect: false },
+      { id: "id:option/2", text: "Ha", isCorrect: true },
+      { id: "id:option/3", text: "Yo'q", isCorrect: false },
     ],
     answerDescription:
       "Correct! The flag with a yellow star and red background is the flag of Vietnam.",
@@ -57,10 +53,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Greece",
     },
     options: [
-      { id: "id:option/8", text: "Italy", isCorrect: false },
-      { id: "id:option/9", text: "Greece", isCorrect: true },
-      { id: "id:option/10", text: "Switzerland", isCorrect: false },
-      { id: "id:option/11", text: "Norway", isCorrect: false },
+      { id: "id:option/4", text: "Yo'q", isCorrect: false },
+      { id: "id:option/5", text: "Ha", isCorrect: true },
     ],
     answerDescription:
       "Correct! The flag with a white cross on a blue background is the flag of Greece.",
@@ -75,10 +69,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Japan",
     },
     options: [
-      { id: "id:option/12", text: "China", isCorrect: false },
-      { id: "id:option/13", text: "Japan", isCorrect: true },
-      { id: "id:option/14", text: "South Korea", isCorrect: false },
-      { id: "id:option/15", text: "Indonesia", isCorrect: false },
+      { id: "id:option/6", text: "Yo'q", isCorrect: false },
+      { id: "id:option/7", text: "Ha", isCorrect: true },
     ],
     answerDescription:
       "Correct! The flag with a red circle on a white background is the flag of Japan.",
@@ -93,10 +85,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Pakistan",
     },
     options: [
-      { id: "id:option/16", text: "Saudi Arabia", isCorrect: false },
-      { id: "id:option/17", text: "Turkey", isCorrect: false },
-      { id: "id:option/18", text: "Pakistan", isCorrect: true },
-      { id: "id:option/19", text: "Malaysia", isCorrect: false },
+      { id: "id:option/8", text: "Yo'q", isCorrect: false },
+      { id: "id:option/9", text: "Ha", isCorrect: true },
     ],
     answerDescription:
       "Correct! The flag with a green field, white crescent, and star is the flag of Pakistan.",
@@ -111,10 +101,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Colombia",
     },
     options: [
-      { id: "id:option/20", text: "Ecuador", isCorrect: false },
-      { id: "id:option/21", text: "Colombia", isCorrect: true },
-      { id: "id:option/22", text: "Venezuela", isCorrect: false },
-      { id: "id:option/23", text: "Peru", isCorrect: false },
+      { id: "id:option/10", text: "Yo'q", isCorrect: false },
+      { id: "id:option/11", text: "Ha", isCorrect: true },
     ],
     answerDescription:
       "Correct! The flag with horizontal stripes of yellow, blue, and red belongs to Colombia.",
@@ -129,10 +117,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Switzerland",
     },
     options: [
-      { id: "id:option/24", text: "Austria", isCorrect: false },
-      { id: "id:option/25", text: "Denmark", isCorrect: false },
-      { id: "id:option/26", text: "Norway", isCorrect: false },
-      { id: "id:option/27", text: "Switzerland", isCorrect: true },
+      { id: "id:option/12", text: "Yo'q", isCorrect: false },
+      { id: "id:option/13", text: "Ha", isCorrect: true },
     ],
     answerDescription:
       "Correct! The flag with a white cross on a red background is the flag of Switzerland.",
@@ -147,10 +133,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Turkey",
     },
     options: [
-      { id: "id:option/28", text: "Algeria", isCorrect: false },
-      { id: "id:option/29", text: "Morocco", isCorrect: false },
-      { id: "id:option/30", text: "Turkey", isCorrect: true },
-      { id: "id:option/31", text: "Tunisia", isCorrect: false },
+      { id: "id:option/14", text: "Ha", isCorrect: true },
+      { id: "id:option/15", text: "Yo'q", isCorrect: false },
     ],
     answerDescription:
       "Correct! The flag with a white star and crescent on a red background is the flag of Turkey.",
@@ -165,10 +149,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Sweden",
     },
     options: [
-      { id: "id:option/32", text: "Denmark", isCorrect: false },
-      { id: "id:option/33", text: "Norway", isCorrect: false },
-      { id: "id:option/34", text: "Finland", isCorrect: false },
-      { id: "id:option/35", text: "Sweden", isCorrect: true },
+      { id: "id:option/16", text: "Yo'q", isCorrect: false },
+      { id: "id:option/17", text: "Ha", isCorrect: true },
     ],
     answerDescription:
       "Correct! The flag with a yellow cross on a blue background belongs to Sweden.",
@@ -183,10 +165,8 @@ export const HayuqQuestions: Question[] = [
       alt: "Germany",
     },
     options: [
-      { id: "id:option/36", text: "Italy", isCorrect: false },
-      { id: "id:option/37", text: "Belgium", isCorrect: false },
-      { id: "id:option/38", text: "Germany", isCorrect: true },
-      { id: "id:option/39", text: "Netherlands", isCorrect: false },
+      { id: "id:option/18", text: "Ha", isCorrect: true },
+      { id: "id:option/19", text: "Yo'q", isCorrect: false },
     ],
     answerDescription:
       "Correct! The flag with horizontal stripes of black, red, and gold belongs to Germany.",

@@ -3,6 +3,9 @@ import { HomeCard } from "./components";
 import { HomeScreenProps } from "../types";
 import { Heading, SafeAreaBox } from "../../components";
 import { data } from "./data";
+import{ IMAGENAME } from '../../../assets/image';
+import { Image } from "react-native";
+
 
 export function HomeScreen({ navigation }: HomeScreenProps) {
   return (
@@ -10,7 +13,7 @@ export function HomeScreen({ navigation }: HomeScreenProps) {
       <ScrollView>
         <View style={homeScreen.rootContainer}>
           <WelcomeCard />
-          <Text style={homeScreen.title}>Tests</Text>
+          <Text style={homeScreen.title}>Savol</Text>
 
           <FlatList
             scrollEnabled={false}
@@ -42,13 +45,29 @@ export function HomeScreen({ navigation }: HomeScreenProps) {
 function WelcomeCard() {
   return (
     <View style={welcomeCard.root}>
-      <Heading text="Quiz App" fontSize={24} color="#fafafa" />
+      <Image source={ IMAGENAME } style={styles.tinyLogo} />
+      <Heading text="UzFi" fontSize={24} color="#fafafa" />
       <Text style={welcomeCard.text}>
-        Welcome to the Quiz App! Get ready to test your knowledge!
       </Text>
+      
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 50,
+  },
+  tinyLogo: {
+    width: 50,
+    height: 50,
+  },
+  stretch: {
+    width: 50,
+    height: 200,
+    resizeMode: 'stretch',
+  },
+});
 
 const homeScreen = StyleSheet.create({
   rootContainer: {

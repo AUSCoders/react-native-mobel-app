@@ -15,9 +15,9 @@ export const FlagTest: Test = {
 export const flagQuestions: Question[] = [
   {
     id: "id:question/0",
-    question: "Which country does the flag with a red maple leaf belong to?",
+    question: "Qizil chinor bargi tasvirlangan bayroq qaysi davlatga tegishli?",
     image: {
-      uri: "https://www.countryflags.com/wp-content/uploads/canada-flag-png-large.png",
+      uri: "https://www.countryflags.com/wp-con?tent/uploads/canada-flag-png-large.png",
       alt: "Canada",
     },
     options: [
@@ -27,13 +27,14 @@ export const flagQuestions: Question[] = [
       { id: "id:option/3", text: "Japan", isCorrect: false },
     ],
     answerDescription:
-      "Correct! The flag with a red maple leaf belongs to Canada.",
-    hint: "This country is known for its vast natural beauty and is located in North America.",
+      "To'g'ri! Qizil chinor barglari tushirilgan bayroq Kanadaga tegishli.",
+    hint: "Bu mamlakat o'zining ulkan tabiiy go'zalligi bilan mashhur va Shimoliy Amerikada joylashgan.",
   },
+  
   {
     id: "id:question/1",
     question:
-      "Which country does the flag with a yellow star and a red background belong to?",
+      "Sariq yulduzli va qizil fonli bayroq qaysi davlatga tegishli?",
     image: {
       uri: "https://www.countryflags.com/wp-content/uploads/vietnam-flag-png-large.png",
       alt: "Vietnam",
@@ -45,13 +46,13 @@ export const flagQuestions: Question[] = [
       { id: "id:option/7", text: "Thailand", isCorrect: false },
     ],
     answerDescription:
-      "Correct! The flag with a yellow star and red background is the flag of Vietnam.",
-    hint: "This country is located in Southeast Asia and is known for its rich history.",
+      "To'g'ri! Sariq yulduzli va qizil fonli bayroq Vetnam bayrog'idir.",
+    hint: "Bu mamlakat Janubi-Sharqiy Osiyoda joylashgan va o'zining boy tarixi bilan mashhur.",
   },
   {
     id: "id:question/2",
     question:
-      "Identify the country by its flag with a white cross on a blue background.",
+      "Mamlakatni ko'k fonda oq xoch bilan bayrog'i bilan aniqlang.?",
     image: {
       uri: "https://www.countryflags.com/wp-content/uploads/greece-flag-png-large.png",
       alt: "Greece",
@@ -63,13 +64,14 @@ export const flagQuestions: Question[] = [
       { id: "id:option/11", text: "Norway", isCorrect: false },
     ],
     answerDescription:
-      "Correct! The flag with a white cross on a blue background is the flag of Greece.",
-    hint: "This Mediterranean country is known for its ancient history and cultural contributions.",
+      "To'g'ri! Moviy fonda oq xoch tasvirlangan bayroq Gretsiya bayrog'i hisoblanadi.",
+    hint: "Bu O'rta er dengizi mamlakati o'zining qadimiy tarixi va madaniy hissasi bilan mashhur.",
   },
+
   {
     id: "id:question/3",
     question:
-      "To which country does the flag with a red circle on a white background belong?",
+      "Oq fonda qizil doira tasvirlangan bayroq qaysi davlatga tegishli?",
     image: {
       uri: "https://www.countryflags.com/wp-content/uploads/japan-flag-png-large.png",
       alt: "Japan",
@@ -81,13 +83,14 @@ export const flagQuestions: Question[] = [
       { id: "id:option/15", text: "Indonesia", isCorrect: false },
     ],
     answerDescription:
-      "Correct! The flag with a red circle on a white background is the flag of Japan.",
-    hint: "This East Asian country is known for its unique blend of tradition and modernity.",
+      "To'g'ri! Oq fonda qizil doira bo'lgan bayroq Yaponiya bayrog'i hisoblanadi.",
+    hint: "Ushbu Sharqiy Osiyo mamlakati an'ana va zamonaviylikning o'ziga xos uyg'unligi bilan mashhur.",
   },
+
   {
     id: "id:question/4",
     question:
-      "Which country's flag features a green field with a white crescent and star?",
+      "Qaysi davlat bayrog'ida oq yarim oy va yulduzli yashil maydon tasvirlangan?",
     image: {
       uri: "https://www.countryflags.com/wp-content/uploads/pakistan-flag-png-large.png",
       alt: "Pakistan",
@@ -99,13 +102,14 @@ export const flagQuestions: Question[] = [
       { id: "id:option/19", text: "Malaysia", isCorrect: false },
     ],
     answerDescription:
-      "Correct! The flag with a green field, white crescent, and star is the flag of Pakistan.",
-    hint: "This South Asian country is known for its diverse landscapes and rich cultural heritage.",
+      "To'g'ri! Yashil maydon, oq yarim oy va yulduzli bayroq Pokiston bayrog'idir.",
+    hint: "Ushbu Janubiy Osiyo mamlakati o'zining rang-barang landshaftlari va boy madaniy merosi bilan mashhur.",
   },
+  // 5
   {
     id: "id:question/5",
     question:
-      "Identify the country by its flag with horizontal stripes of yellow, blue, and red.",
+      "Sariq, ko'k va qizil gorizontal chiziqlar bilan bayrog'i bilan mamlakatni aniqlang.",
     image: {
       uri: "https://www.countryflags.com/wp-content/uploads/colombia-flag-png-large.png",
       alt: "Colombia",
