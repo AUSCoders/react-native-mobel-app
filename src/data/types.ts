@@ -27,4 +27,4 @@ export interface Test {
   duration: number;
 }
 
-export type TestName = "flags" | "solarSystem" | "ha-yo'q";
+export type TestName = "bayroq" | "solarSystem" | "ha-yo'q";

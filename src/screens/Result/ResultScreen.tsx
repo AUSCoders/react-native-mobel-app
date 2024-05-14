@@ -10,7 +10,7 @@ export function ResultScreen({ navigation, route }: ResultScreenProps) {
     <SafeAreaBox>
       <View style={results.root}>
         <View style={results.cardContainer}>
-          <Text style={results.resultsText}>Results</Text>
+          <Text style={results.resultsText}>Natija</Text>
           <ResultsCard
             correctAnswers={correctAnswers}
             totalQuestions={totalQuestions}

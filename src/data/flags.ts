@@ -2,13 +2,13 @@ import { Question, Test } from "./types";
 
 export const FlagTest: Test = {
   id: "id:test/flag",
-  title: "Flags",
-  testName: "flags",
+  title: "Bayroq",
+  testName: "bayroq",
   numOfQuestions: 10,
   duration: 10,
   image: {
     uri: "https://assets.weforum.org/article/image/large_BG0pfzM90_bsl3pWCLD2ZvvspIYSUwrhYlc5QyRO96E.jpg",
-    alt: "Flags",
+    alt: "Bayroq",
   },
 };
 

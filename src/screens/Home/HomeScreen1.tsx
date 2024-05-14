@@ -45,10 +45,15 @@ export function HomeScreen({ navigation }: HomeScreenProps) {
 function WelcomeCard() {
   return (
     <View style={welcomeCard.root}>
-      <Image source={ IMAGENAME } style={styles.tinyLogo} />
-      <Heading text="UzFi" fontSize={24} color="#fafafa" />
-      <Text style={welcomeCard.text}>
-      </Text>
+         <View style={{ flex: 1, alignItems:"center", justifyContent:"space-around", flexDirection:"column",}}>
+          <View>
+            <Image source={ IMAGENAME } style={styles.tinyLogo} />
+          </View>
+          <View>
+            {/* <Heading text="UzFi" fontSize={24} color="#fafafa" /> */}
+          </View>
+         </View>
+      <Text style={welcomeCard.text}>Hoiii</Text>
       
     </View>
   );
@@ -82,9 +87,13 @@ const homeScreen = StyleSheet.create({
 });
 
 const welcomeCard = StyleSheet.create({
+  contaner: {
+    flex: 1,
+    flexDirection: "row",
+  },
   root: {
     backgroundColor: "#4B5563",
-    gap: 16,
+    gap: 5,
     borderRadius: 24,
     padding: 24,
   },

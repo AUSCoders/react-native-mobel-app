@@ -31,7 +31,7 @@ export function TestScreen({ navigation, route }: TestScreenProps) {
   useEffect(() => {
     const questions = (() => {
       switch (category) {
-        case "flags":
+        case "bayroq":
           return flagQuestions;
         case "solarSystem":
           return solarSystemQuestions;
